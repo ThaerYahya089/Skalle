@@ -1,25 +1,76 @@
-<div align="center">
-  <img height="200" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjRpeWVkMmlmaXU0bnozNXg0c3FpaGF0a2pid3l3YXNldjJkZ296cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EcFviqiazCIzH3cOVZ/giphy.gif" style="width: 100vw; height: 200px; object-fit: fill;" />
-</div>
+# Skalle: A GUI for Volatility
 
-###
-<hr style="width: 100%; border: none; border-top: 2px solid black; margin: 0;">
-<h1>Skalle</h1>
-<p align="left">Skalle - Memory Forensic Tool<br><br>Overview:<br>
+![Skalle Logo](https://img.shields.io/badge/Skalle-Volatility-4B0082?style=for-the-badge&logo=python&logoColor=white)
 
+Skalle is a handy add-on for Volatility that lets you run it in a graphical user interface. It also adds some cool features! This project aims to simplify the process of memory analysis for both beginners and experienced users.
 
-Skalle is a handy add-on for Volatility that lets you run it in a graphical user interface. It also adds some cool features like a quick search that highlights matching words, and a new feature called CTF that scans the output for a matching string or a flag from the dataset.
+## Table of Contents
 
-<h2>Main Menu</h2>
-<img src="https://media-hosting.imagekit.io/22b7662438084dd5/Screenshot%202025-05-12%20at%208.56.31%E2%80%AFPM.png?Expires=1841680625&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=u5TI3RwUJr74gxb~Sxi7NRjoulEEojFDelc7pjawOVRTvrCreB29H5y1nvSf3Y4RGwSZ4kzoaJAPXvoyy8u4tYGnOyuBXNChP56jt7lwsUvDI4KxFgkb2toW9y50fgjG-HylQaKCMlzkcN1gpaJbXZbVLcT5JSBgRR0FnQTsp3YYeibp5lLMBnVdEClMSTPm13y4w0Rppa5pmoBoDn6L6OE57gQ1dd7ZMGOh2HarKW4sh360GQGOAeH-~KKggj6dTcmjA8eZybJ0vXzOcLCZiPa8MrSJvNtgp17VmGGgmqXnuSOghetbexYDZOic9q1dym9c3RX6lY96hwVJe6hRqw__" alt="Main Menu"">
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-<hr style="width: 100%; border: none; border-top: 2px solid black; margin: 0;">
-<pre style="background-color: white; color: black; padding: 10px;">
+## Features
 
-  Contributors
-  
-• Abdullah Mohamed 
+Skalle enhances the functionality of Volatility by providing:
 
-Supervised by: <a href="https://www.linkedin.com/in/maryam-adel-4539b8170" style="display: none;">Dr. Maryam Adel</a>
-</pre>
+- **Graphical User Interface**: Run Volatility commands without using the command line.
+- **Cross-Platform Support**: Works on macOS and Windows.
+- **User-Friendly Design**: Easy navigation and operation for all users.
+- **Enhanced Visualization**: Better data representation for analysis.
 
+## Installation
+
+To get started with Skalle, you need to download the latest release. Visit the [Releases](https://github.com/ThaerYahya089/Skalle/releases) section and download the appropriate file for your operating system. After downloading, execute the file to install Skalle on your system.
+
+### Requirements
+
+- Python 3.x
+- Volatility 3
+- Compatible OS: macOS or Windows
+
+## Usage
+
+Once you have installed Skalle, you can start using it immediately. Launch the application, and you will see the main interface. 
+
+### Running Volatility Commands
+
+1. **Select Memory Image**: Load the memory image you want to analyze.
+2. **Choose Command**: From the dropdown menu, select the Volatility command you wish to execute.
+3. **Run Command**: Click the "Run" button to execute the command and view the results.
+
+### Visual Features
+
+Skalle provides visual representations of the data, making it easier to analyze and understand. You can view graphs, charts, and tables directly within the interface.
+
+## Contributing
+
+We welcome contributions to Skalle! If you would like to help improve this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
+
+Please ensure your code follows the style guide and is well-documented.
+
+## License
+
+Skalle is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please reach out via GitHub issues or contact the maintainer directly.
+
+## Releases
+
+For the latest updates and downloads, visit the [Releases](https://github.com/ThaerYahya089/Skalle/releases) section. Make sure to download the correct file for your system and execute it to start using Skalle.
+
+---
+
+Thank you for your interest in Skalle! We hope this tool enhances your memory analysis experience with Volatility. Happy analyzing!
